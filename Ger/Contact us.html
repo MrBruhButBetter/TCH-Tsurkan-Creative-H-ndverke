@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tsurkan Creative Håndverk</title>
+    <link rel="stylesheet" href="../CSS/Contact us.css">
+</head>
+<body>
+  <nav class="navbar">
+    <a href="Index.html"><img src="../Images/logo.png" alt="Logo"></a>
+    <ul>
+        <li><a href="gallery.html">Galerie</a></li>
+        <li><a href="Index.html">Startseite</a></li>
+        <li><a href="Contact us.html">Kontaktieren Sie uns</a></li>
+        <li><a href="about.html">Über uns</a></li>
+        <li>
+            <a href="Contact us.html"><img style="border-radius: 100%; height: 20px; width: 20px;" src="../Images/ger.png" alt="English"> Deutsch</a>
+            <div class="dropdown-content">
+                <a href="../Contact us.html"><img src="../Images/UK.png" alt="Deutsch">English</a>
+                <a href="../Swe/Contact us.html"><img src="../Images/swe.png" alt="French">Svenska</a>
+                <a href="../Nor/Contact us.html"><img src="../Images/nor.png" alt="Spanish">Norge</a>
+            </div>
+        </li>
+    </ul>
+</nav>
+
+<div class="container">
+    <img class="bg" src="../Images/img3.png" alt="">
+    <div class="overlay">
+  
+      <div class="infobox">
+          <h1>Kontaktieren Sie uns</h1> 
+          <input class="name" type="text" placeholder="Vor- und Nachname"><br>
+          <input class="gmail" type="text" placeholder="Ihre E-Mail"><br>
+
+
+          <input class="des" type="text" placeholder="Bitte beschreiben Sie, was Sie benötigen"><br>
+          <button type="button" onclick="validateForm()">Absenden</button>
+          <a href=""><img src="" alt=""></a>
+          <p id="message" style="color: rgb(0, 0, 0); display: none; font-weight: bolder;">Nachricht erfolgreich gesendet</p>
+      </div>
+    </div>
+  </div>
+<script src="../JS/message.js"></script>
+</body>
+</html>
